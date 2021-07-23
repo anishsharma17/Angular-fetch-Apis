@@ -1,0 +1,94 @@
+.nav{
+    margin: 10px;
+}
+.form-inline{
+    text-align: center;
+    margin: 10px;
+    width: 70%;
+    
+    
+    
+}
+.navbar-brand{
+    color: black;
+}
+button{
+    background-color: blue;
+}
+ 
+    
+
+@media (max-width:700px) {
+    .form-inline .form-control{
+        width: 80%;
+    
+    }
+    
+}
+@media (min-width:700px) and (max-width:1024px) {
+    .form-inline .form-control{
+      width: 80%;
+    }
+}
+@media (min-width:1024px) and (max-width:1440px) {
+    .form-inline .form-control{
+        width: 80%;
+    }
+}
+@media (min-width:1440px) {
+    .form-inline .form-control{
+        width: 80%;
+    }
+    
+}
+
+.card{
+    
+    box-shadow: 2px lightgrey;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: #CCD1D1 ;
+}
+.card-title{
+    font-weight: bold;
+}
+.card-title1{
+    font-weight: bold;
+}
+@media (max-width: 700px) {
+    .col{
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 20px;
+    }
+    
+}
+@media (min-width:700px) and (max-width:1240px) {
+    .col{
+        width: 42%;
+        float: left;
+        margin-left: 5%;
+        margin-bottom: 20px;
+    }
+    
+}
+@media (min-width:1024px) and (max-width:1440px) {
+    .col{
+        width: 20%;
+        float: left;
+        margin-left: 4%;
+        margin-bottom: 20px;
+    }
+
+    
+}
+
+@media (min-width:1440px) {
+    .col {
+        width: 15%;
+        float: left;
+        margin-left: 1.3%;
+    }
+    
+}

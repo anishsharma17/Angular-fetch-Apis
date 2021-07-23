@@ -1,0 +1,27 @@
+  <nav class="navbar navbar-dark bg-primary">
+  <div class="nav">
+  <a class="navbar-brand">MyProject</a>
+  <form class="form-inline">
+    <input class="form-control " type="text"
+     placeholder="Enter email to search" [(ngModel)]="filterString" [ngModelOptions]="{standalone: true}" />
+    <button class="btn btn-outline-dark my-2 my-sm-0"   type="submit">Search</button>
+  </form>
+  </div>
+</nav>
+  <div class="row">
+  <div class="col" *ngFor="let item of userdata[4] | filter:filterString">
+    <div class="card">
+      <img src="{{item.avatar}}" alt="">
+      <div class="card-body">
+        <p class="card-text">{{item.id}}</p>
+        <h5 class="card-title">{{item.first_name}} {{item.last_name}}</h5> 
+        <h5 class="card-title1">{{item.email}}</h5>
+        
+        
+      </div>
+    </div>
+  </div>
+  </div>
+  
+
+ 
